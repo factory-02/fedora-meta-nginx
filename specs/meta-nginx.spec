@@ -17,11 +17,12 @@ META-package for install NGINX.
 # -------------------------------------------------------------------------------------------------------------------- #
 
 %install
+install -p -d -m 0755 %{buildroot}%{_sysconfdir}/nginx/conf.d
 install -p -m 0644 %{SOURCE10} \
     %{buildroot}%{_sysconfdir}/nginx/conf.d/00-nginx.custom.conf
 
 %files
-%config(noreplace) %{_sysconfdir}/nginx/00-nginx.custom.conf
+%config(noreplace) %{_sysconfdir}/nginx/conf.d/00-nginx.custom.conf
 
 %changelog
 * Wed Jan 02 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.0-1
