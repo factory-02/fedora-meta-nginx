@@ -1,4 +1,4 @@
-Name:                           fedora-meta-nginx
+Name:                           meta-nginx
 Version:                        1.0.0
 Release:                        1%{?dist}
 Summary:                        META-package for install NGINX

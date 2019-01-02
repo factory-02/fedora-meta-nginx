@@ -15,9 +15,9 @@
 [![Patreon](https://cdn-storage.github.io/images/badges/donate.patreon.svg)](https://patreon.com/metadata)
 [![By METADATA](https://cdn-storage.github.io/images/badges/by.metadata.svg)](https://metadata.foundation/)
 
-SPEC-файл для создания RPM-пакета **fedora-meta-nginx**.
+SPEC-файл для создания RPM-пакета **meta-nginx**.
 
 ## Установка
 
-1. Подключить репозиторий **METASTORE**: `dnf copr enable metastore/fedora-meta-nginx`.
-2. Установить пакет: `dnf install fedora-meta-nginx`.
+1. Подключить репозиторий **METASTORE**: `dnf copr enable metastore/meta-nginx`.
+2. Установить пакет: `dnf install meta-nginx`.
