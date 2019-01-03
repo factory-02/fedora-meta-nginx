@@ -2,7 +2,6 @@ Name:                           meta-nginx
 Version:                        1.0.0
 Release:                        1%{?dist}
 Summary:                        META-package for install and configure NGINX
-
 License:                        GPLv3
 
 Source10:                       nginx.custom.conf
