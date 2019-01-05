@@ -21,7 +21,7 @@ install -p -m 0644 %{SOURCE10} \
     %{buildroot}%{_sysconfdir}/nginx/conf.d/00-nginx.custom.conf
 
 %files
-%config(noreplace) %{_sysconfdir}/nginx/conf.d/00-nginx.custom.conf
+%config %{_sysconfdir}/nginx/conf.d/00-nginx.custom.conf
 
 %changelog
 * Wed Jan 02 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.0-1
