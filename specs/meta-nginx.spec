@@ -1,5 +1,5 @@
 Name:                           meta-nginx
-Version:                        1.0.2
+Version:                        1.0.3
 Release:                        1%{?dist}
 Summary:                        META-package for install and configure NGINX
 License:                        GPLv3
@@ -24,6 +24,9 @@ install -p -m 0644 %{SOURCE10} \
 %config %{_sysconfdir}/nginx/conf.d/00-nginx.custom.conf
 
 %changelog
+* Tue Feb 12 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.3-1
+- New version: 1.0.3.
+
 * Sun Feb 10 2019 Kitsune Solar <kitsune.solar@gmail.com> - 1.0.2-1
 - New version: 1.0.2.
 
